@@ -120,3 +120,61 @@ body{
     color:#0E0E0E;
 }
 /* Fin de barra de navegacion */
+/* presentacion */
+.divframer2 {
+    width: 80%;
+}
+/* parte izquierda  */
+.presentacion {
+    display: flex;
+    justify-content: space-between;
+}
+.presentacion_box {
+    
+}
+.work {
+}
+.container_work {}
+.on_off {
+
+}
+.on_svg {
+    width: 20px;
+    height: 20px;
+    color: antiquewhite;
+}
+.parrafo > p {
+    color: white;
+}
+.presentacion > p{
+    color: white;
+}
+.sub_titulo{
+    color: white;
+}
+.parrafo_presentacion > p {
+    color: #D8D8D8;
+}
+.container_botones {
+}
+.boton {
+}
+.naraja {
+}
+
+/* parte derecha  */
+.presentacion_imagen{
+
+}
+.container_imagen{
+    width: 350px;
+    height: auto;
+    border-radius: 50%;
+    border: 20px solid #B9925F;
+
+}
+.foto_perfil{
+    width: 350px;
+    height: auto;
+    border-radius: 50%;
+}
