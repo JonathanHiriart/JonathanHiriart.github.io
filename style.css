@@ -1,14 +1,122 @@
-.svg_fondo{
-    margin: 20px;
+body{
+    background-color: #0E0E0E;
+}
+
+/* Barra de navegacion */
+.divframer1{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.header {
+    background-color: #131313;
+    width: 60%;
+    border-radius: 20px;
+    backdrop-filter: blur(40px);
+}
+.nav {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+.home .home_fondo{
     height: 40px;
     width: 40px;
-    background: blue;
+    background: #E5E5E5;
     border-radius: 50%;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
-.svg{
+.svg_home {
     height: 24px;
     width: 24px;
+    color:#0E0E0E ;
 }
+.nav_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.nav_parrafo > p > a {
+    font-family: 'Inter', sans-serif;
+    color: #A3A3A3;
+}
+.nav_parrafo > p > a:hover{
+    color: #ffffff;
+}
+.container_search{
+    display: flex;
+
+}
+.search_box {
+    padding: 8px 30px 8px 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    background-color:#262626 ;
+}
+.svg_busqueda {
+    height: 24px;
+}
+.label_search > p{
+    color: #D8D8D8;
+}
+.svg_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+.svg_container{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#262626;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.svgderecha {
+    height: 20px;
+    width: 20px;
+    color: #A3A3A3;
+}
+.svgderecha:hover{
+    color: #ffffff;
+}
+.buttom_link {
+    background-color: #D8D8D8;
+    padding: 14px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.parrafo_buttom {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    color:#0E0E0E;
+    text-decoration: none;
+}
+.buttom_svg {
+    color:#0E0E0E;
+}
+/* Fin de barra de navegacion */
