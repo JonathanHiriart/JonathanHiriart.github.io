@@ -129,6 +129,7 @@ body{
 /* parte izquierda  */
 .presentacion {
     padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -201,8 +202,8 @@ body{
 }
 
 /* parte derecha  */
-.container_presentacion{
-}
+/* .container_presentacion{
+} */
 .container_imagen{
     width: 300px;
     height: auto;
@@ -251,3 +252,97 @@ body{
     color:#D0D0D0 ;
 }
 
+/* section works */
+
+.divframer3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 60%;
+    display: block ;
+    margin: auto;
+}
+.works {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.title > h2 {
+    color: #A3A3A3;
+    font-size: 36px;
+}
+.container_cards{
+    display: grid;
+    gap: 1rem ;
+    grid-auto-rows: 29rem;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%,30rem), 1fr));
+    width: 100%;
+    gap: 1.25rem;
+}
+
+.cards { 
+    background-color: #191F28;
+    border-radius: 10px;
+    border: solid 3px #9C774D;
+}
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container_lenguaje{
+    display: flex;
+    gap: 5px;
+    margin-left: 16px;
+}
+
+.lenguaje {
+    margin: 16px 0px 0px 0px;
+    width: 70px;
+    height: 30px;
+    background-color: #15151599;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.lenguaje > p{
+    color: #f5f5f5b3;
+    font-size: 12px;
+} 
+.proyect_name {
+    padding: 0px 16px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.proyect_title_name{
+    color: #F5F5F5;
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+}
+.proyect_sub_name {
+    color: #A3A3A3;
+
+}
+.buttom_show-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.buttom_show-more_link{
+    width: 100%;
+    padding: 23px 18px;
+    border: solid 2px #A3A3A3;
+    border-radius: 40px;
+}
+.buttom_show-more_link > p{
+    color: #A3A3A3;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
